@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+
+    <div class="grid justify-items-center">
+       <div class="bg-blue-900 sm:grid-cols-1   sm:grid-rows-1 justify-items-center mt-48 rounded sm:h-[15rem] sm:w-4/12">
+        <h2 class="font-medium mt-5 text-2xl underline text-center">Random Password Generator</h2>
+        
+        <input id="password" type="text" placeholder="Password" class="mt-5  sm:h-[40px] sm:w-10/12 rounded ml-8 font-bold "> 
+
+       <div class="grid grid-cols-2 grid-rows-2 gap-20">
+        
+        <button id="generate-password" class="bg-blue-700 mt-10 rounded ml-8 sm:w-[7rem] p-3 font-medium hover:bg-sky-700">Generate</button>
+       
+        <button id="copy-password" class="bg-blue-700 mt-10 rounded mr-8 sm:w-[7rem] p-3 font-medium">Copy</button>
+    </div>
+       </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
